@@ -1,0 +1,3 @@
+function bsp::auto::return_node_id() >> String {
+  $::hostname[-2, 2]
+}
